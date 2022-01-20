@@ -7,3 +7,11 @@ Exemplo Entrada:
 [6, 8, 7]
 */
 
+const numbers = [6, 8, 7]
+
+const average = numbers.reduce((acc, num) => {
+    return acc + num / 3 
+
+}, 0)
+
+console.log(average)

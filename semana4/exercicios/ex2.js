@@ -1,4 +1,4 @@
-/* Dado um array de números, faça um programa queteste se este arraycontém um valor específico. 
+/* Dado um array de números, faça um programa quet este se este array contém um valor específico. 
 Tanto o valor quanto o array serão valores de entrada.
 Exemplo de Entrada:
 [1, 3, -12, 33, -1, 9, 110, -1168, 252, -15253, 2127]
@@ -15,7 +15,7 @@ const filteredArray = numbers.filter((number) => {
     return number === position
 })
 
-console.log(filteredArray.join(", "))
+console.log(filteredArray.join("O valor foi encontrado no Array"))
 
 
 
