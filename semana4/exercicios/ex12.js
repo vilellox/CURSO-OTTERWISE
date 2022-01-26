@@ -20,10 +20,10 @@ Cláudio da silva figueiredo
 let user = {nome: 'Analu dos santos baptista', cpf: '14776213931', telefone: '8328008258'}
 
 
-const funcName = (_) => {
-    return 
+const funcName = (letra) => {
+    return letra.toUpperCase()
 }
-const regexName = /(\w)([a-z]/
+const regexName = /\s{1}\w{1}/g
 const nomeFinal = user.nome.replace(regexName, funcName)
 console.log(nomeFinal)
 

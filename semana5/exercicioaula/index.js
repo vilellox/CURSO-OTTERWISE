@@ -1,4 +1,4 @@
-import { multiply } from "./helpers.js"
+import { formatDate } from './formatters.js'
 
-console.log(2, 2)
 
+console.log(formatDate(new Date()))

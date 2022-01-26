@@ -53,17 +53,14 @@ const employees = [
     contract_date: '14/11/2020', job: 'financeiro', type: 'clt'}
     ]
 
-    const idIformado = employees.sort((a, b) => {
-        return a.id - b.id
+    const idIformado = employees.id.filter((ids) => {
+        return ids
     })
 
     console.log(idIformado)
 
-    const findActives = employees.active.find((actives) => {
-        if(active === true){
-            console.log(employees.active)
-        } else{
-            console.log()
-        }
+    const actInfo = employees.sort((a, b) => {
+        
     })
 
+    console.log(actInfo)

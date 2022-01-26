@@ -32,6 +32,9 @@ const pessoas = [
 { nome: "Joana", idade: 23, salario: 5000, senioridade: "junior" },
 ]
 
+
+
+
 const orderedAge = pessoas.sort((a, b) => {
     return a.idade - b.idade;
   });
@@ -57,10 +60,3 @@ const orderedWage2 = pessoas.sort((a, b) => {
 
 console.log(orderedWage2);
 
-const orderedSenior = pessoas.sort((a, b) => {
-    if(senior > pleno){
-        
-    }
-  });
-
-console.log(orderedSenior);

@@ -1,0 +1,11 @@
+a {
+    color: white;
+    text-decoration: none;
+    text align: center;
+    padding: 5px;
+    background-color: darkcyan;
+}
+
+p, li {
+    font-size: 12px;
+}
