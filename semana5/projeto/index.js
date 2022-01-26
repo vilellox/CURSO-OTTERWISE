@@ -18,4 +18,11 @@ const final = files.map((element) => {
     }
 )
 
+const savedToJson = (infos, fileName) => {
+    const parsedInfo = JSON.stringify(infos)
+    fs.writeFileSync(fileName, parsedInfo)
+}
+
+
+savedToJson(final, "lista.JSON")
 console.log(final);
